@@ -8,7 +8,7 @@ function MovieList() {
 
             {moviesArr.map((movieObj, i, arr) => {
                 return (
-                    <div className='box'>
+                    <div key={movieObj.id} className='box'>
                         <p>{movieObj.title}</p>
                         <p>{movieObj.year}</p>
                         <p>{movieObj.rating}</p>
