@@ -1,6 +1,8 @@
 import Header from "./components/Header"
 import MyFirstComponent from "./components/MyFirstComponent"
 import Footer from "./components/Footer"
+import User from "./components/User"
+
 
 
 function App() {
@@ -8,9 +10,18 @@ function App() {
     <>
       <h1>React Intro</h1>
 
-      <Header />
+      <Header title='hello world' />
+
+      <User userName="alice" age={30} email="alice@example.com" />
+      <User userName="bob" age={40} email="bob@example.com" />
+      <User userName="charlie" age={50} email="charlie@example.com" />
+
       <MyFirstComponent />
-      <Footer />
+
+      <Footer>
+        <p>breakingBug, 2025</p>
+      </Footer>
+       
     </>
   )
 }
