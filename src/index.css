@@ -56,3 +56,7 @@ button:focus-visible {
   padding: .5rem;
   margin: .5rem;
 }
+
+#movie-list {
+  margin-top: 4rem;
+}
